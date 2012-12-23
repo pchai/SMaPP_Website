@@ -8,13 +8,12 @@
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<style type="text/css">
           body {
-            padding-top: 100px;
+            padding-top: 60px;
             padding-bottom: 40px;
           }
-          .my-side-bar {
-              margin-right: 50px;
-              padding-top:9px;
-            }
+          .sidebar-nav {
+            padding: 9px 0;
+          }
     </style>
 </head>
 <body>
@@ -31,12 +30,12 @@
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
              </a>
-             <a class="brand" href="index.html">SMaPP</a>
+             <a class="brand" href="#">SMaPP</a>
              <div class="nav-collapse collapse">
                <ul class="nav pull-right">
-                 <li class="active"><a href="index.html">Home</a></li>
-                 <li><a href="about.html">About</a></li>
-                 <li><a href="resources.html">Resources</a></li>
+                 <li class="active"><a href="#">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                 <li><a href="#contact">Contact</a></li>
                </ul>
              </div><!--/.nav-collapse -->
            </div>
@@ -51,10 +50,10 @@
                </div>
                <!--Side navigation bar
                ==========================================================================================-->
-               <div class="span3 my-side-bar">
+               <div class="span3">
                    <ul class="nav nav-pills nav-stacked">
                        <li class="active">
-                           <a href="index.html"><h5>Home</h5></a>
+                           <a href="try.html"><h5>Home</h5></a>
                        </li>
                        
                        <li>
@@ -62,40 +61,29 @@
                                <h5>People</h5>
                            </a>
                        </li>
-                       <div id="people" class="collapse">
-                           <ul class="nav nav-pills nav-stacked">
-                               <li><a href="pi.html">&nbsp;&nbsp;&nbsp;<em>PI</em></a></li>
-                               <li><a href="faculty.html">&nbsp;&nbsp;&nbsp;<em>Faculty</em></a></li>
-                               <li><a href="Student.html">&nbsp;&nbsp;&nbsp;<em>Student</em></a></li>    
-                           </ul>
-                       </div>
-                       
-                       <li>
-                           <a href="#" data-toggle="collapse" data-target="#resources">
-                                  <h5>Resources</h5>
-                           </a>
-                       </li>
-                       <div id="resources" class="collapse">
+                          <div id="people" class="collapse in">
                               <ul class="nav nav-pills nav-stacked">
-                                  <li><a href="paper.html">&nbsp;&nbsp;&nbsp;<em>Papers</em></a></li>
-                                  <li><a href="link.html">&nbsp;&nbsp;&nbsp;<em>Links</em></a></li>
-                                  <li><a href="conference.html">&nbsp;&nbsp;&nbsp;<em>Conferences</em></a></li>    
+                                  <li><a href="pi.html"><em>PI</em></a></li>
+                                  <li><a href="faculty.html"><em>Faculty</em></a></li>
+                                  <li><a href="Student.html"><em>Student</em></a></li>    
                               </ul>
                           </div>
+                       <li>
+                           <a href="#"><h5>Resources</h5></a>
+                       </li>
                        <li>
                            <a href="#"><h5>Contact</h5></a>
                        </li>
                        
                    </ul>
-               </div><!---/side navigation bar-->
+               </div><!---/span3-->
             
                <div class="span6">
-                   <h3 class="text-info">Welcome</h3>
-                   <p class="text-info">
-                    &nbsp;&nbsp;Here goes some texts, photos or even slides, may be one or two paragraphs which I have no idea what should I put here.
-                   </p>
-               </div><!--span7-->
-        
+                   
+               </div><!--span6-->
+            
+               <div class="span2">
+               </div>
         </div><!--/row-fluid-->
     </div><!--container-fluid-->
 	

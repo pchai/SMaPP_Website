@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<style type="text/css">
+          body {
+            padding-top: 100px;
+            padding-bottom: 40px;
+          }
+          .my-side-bar {
+            margin-right: 50px;
+            padding-top:9px;
+          }
+    </style>
+</head>
+<body>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+    <!--Top navigation bar
+    ==========================================================================================-->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+         <div class="navbar-inner">
+           <div class="container-fluid">
+             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </a>
+             <a class="brand" href="index.html">SMaPP</a>
+             <div class="nav-collapse collapse">
+               <ul class="nav pull-right">
+                 <li class="active"><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="resources.html">Resources</a></li>
+               </ul>
+             </div><!--/.nav-collapse -->
+           </div>
+         </div>
+       </div>
+    
+    <!-- Body Content
+    ==========================================================================================-->   
+	<div class="container-fluid">
+           <div class="row-fluid">
+               <div class="span1">
+                   &nbsp;
+               </div>
+               <!--Side navigation bar
+               ==========================================================================================-->
+               <div class="span3 my-side-bar">
+                   <ul class="nav nav-pills nav-stacked">
+                       <li>
+                           <a href="index.html"><h5>Home</h5></a>
+                       </li>
+                       
+                       <li class="active">
+                           <a href="#" data-toggle="collapse" data-target="#people">
+                               <h5>People</h5>
+                           </a>
+                       </li>
+                       <div id="people" class="collapse in">
+                           <ul class="nav nav-pills nav-stacked">
+                               <li class="active"><a href="pi.html">&nbsp;&nbsp;&nbsp;<em>PI</em></a></li>
+                               <li><a href="faculty.html">&nbsp;&nbsp;&nbsp;<em>Faculty</em></a></li>
+                               <li><a href="Student.html">&nbsp;&nbsp;&nbsp;<em>Student</em></a></li>    
+                           </ul>
+                       </div>
+                       
+                       <li>
+                           <a href="#" data-toggle="collapse" data-target="#resources">
+                                  <h5>Resources</h5>
+                           </a>
+                       </li>
+                       <div id="resources" class="collapse">
+                              <ul class="nav nav-pills nav-stacked">
+                                  <li><a href="paper.html">&nbsp;&nbsp;&nbsp;<em>Papers</em></a></li>
+                                  <li><a href="link.html">&nbsp;&nbsp;&nbsp;<em>Links</em></a></li>
+                                  <li><a href="conference.html">&nbsp;&nbsp;&nbsp;<em>Conferences</em></a></li>    
+                              </ul>
+                          </div>
+                       <li>
+                           <a href="#"><h5>Contact</h5></a>
+                       </li>
+                       
+                   </ul>
+               </div><!---/side navigation bar-->
+            <!-- People Page
+            ==========================================================================================-->
+               <div class="span7">
+                   <h3 class="text-info">&nbsp;&nbsp;People</h3>
+                   <p class="text-info"><em><strong>&nbsp;&nbsp;&nbsp;Principle Investors</strong></em><p>
+                   <!--The accordion
+                   ===================================================== -->
+                   <ul class="nav nav-pills nav-stacked">
+                       <li>
+                           <a data-toggle="collapse" class="text-info" data-target="#bonneau">
+                               <strong>Richard Bonneau</strong>
+                               &nbsp;&nbsp;&nbsp;
+                               <small>Bio</small>
+                               <i class="icon-chevron-down"></i>
+                           </a>
+                       </li>
+                       <!--Person Information starts-->
+                       <div id="bonneau" class="collapse row-fluid">
+                           <!--thumbnail image-->
+                           <div class="span3">
+                               <ul class="thumbnails">
+                                   <li>
+                                       <div class="thumbnail">
+                                           <img src="img/rich.png">
+                                       </div>
+                                   </li>
+                               </ul>
+                               <a href="mailto:#" class="muted inline">bonneau@nyu.edu</a>
+                               <a href="http://bonneaulab.bio.nyu.edu/" class="muted">Personal Site</a>
+                               
+                            </div>
+                            <div class="span2">
+                            </div>
+                            <!--Bio-->
+                            <div class="span6">
+                                <p class="text-error"><strong> Biology and Computer Science </strong></p>
+                                <p>
+                                    <small>Personal Bio goes here</small>
+                                </p>
+                            </div><!--end Bio text-->
+                       </div><!--end Rich information-->
+                       <li>
+                           <a data-toggle="collapse" class="text-info" data-target="#Jost">
+                               <strong>John Jost</strong>
+                               &nbsp;&nbsp;&nbsp;
+                               <small>Bio</small>
+                               <i class="icon-chevron-down"></i>
+                           </a>
+                       </li>
+                       <div id="Jost" class="collapse row-fluid">
+                              <!--thumbnail image-->
+                              <div class="span3">
+                                  <ul class="thumbnails">
+                                      <li>
+                                          <div class="thumbnail">
+                                              <img src="img/johnjost.png">
+                                          </div>
+                                      </li>
+                                  </ul>
+                                  <a href="mailto:#" class="muted inline">john.jost@nyu.edu</a>
+                                  <a href="http://psych.nyu.edu/jost/" class="muted">Personal Site</a>
+                               </div>
+                               <div class="span2">
+                               </div>
+                               <!--Bio-->
+                               <div class="span6">
+                                   <p class="text-error"><strong> Psychology and Politics </strong></p>
+                                   <p>
+                                       <small>Personal Bio goes here</small>
+                                   </p>
+                               </div><!--end Bio text-->
+                           </div><!--end John Jost information-->
+                           
+                           <li>
+                                  <a data-toggle="collapse" class="text-info" data-target="#Jonathan">
+                                      <strong>Jonathan Nagler</strong>
+                                      &nbsp;&nbsp;&nbsp;
+                                      <small>Bio</small>
+                                      <i class="icon-chevron-down"></i>
+                                  </a>
+                            </li>
+                            <div id="Jonathan" class="collapse row-fluid">
+                                     <!--thumbnail image-->
+                                     <div class="span3">
+                                         <ul class="thumbnails">
+                                             <li>
+                                                 <div class="thumbnail">
+                                                     <img src="img/jonathann.jpg">
+                                                 </div>
+                                             </li>
+                                         </ul>
+                                         <a href="mailto:#" class="muted inline">jonathan.nagler@nyu.edu </a>
+                                         <a href="http://politics.as.nyu.edu/object/JonathanNagler" class="muted">Personal Site</a>
+                                      </div>
+                                      <div class="span2">
+                                      </div>
+                                      <!--Bio-->
+                                      <div class="span6">
+                                          <p class="text-error"><strong> Psychology and Politics </strong></p>
+                                          <p>
+                                              <small>Personal Bio goes here</small>
+                                          </p>
+                                      </div><!--end Bio text-->
+                                  </div><!--end Johnathan information-->
+                            <li>
+                                <a data-toggle="collapse" class="text-info" data-target="#Joshua">
+                                    <strong>Joshua A. Tucker</strong>
+                                            &nbsp;&nbsp;&nbsp;
+                                            <small>Bio</small>
+                                    <i class="icon-chevron-down"></i>
+                                </a>
+                            </li>
+                            <div id="Joshua" class="collapse row-fluid">
+                            <!--thumbnail image-->
+                                <div class="span3">
+                                    <ul class="thumbnails">
+                                        <li>
+                                            <div class="thumbnail">
+                                                <img src="img/joshuat.jpg">
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <a href="mailto:#" class="muted inline">joshua.tucker@nyu.edu</a>
+                                    <a href="https://files.nyu.edu/jat7/public/" class="muted">Personal Site</a>
+                                </div>
+                                <div class="span2">
+                                </div>
+                                <!--Bio-->
+                                <div class="span6">
+                                    <p class="text-error"><strong> Politics and Russian and Slavic Studies </strong></p>
+                                    <p>
+                                        <small>Personal Bio goes here</small>
+                                    </p>
+                                </div><!--end Bio text-->
+                            </div><!--end Joshua information-->
+                   </ul><!--end accordion-->
+               </div><!--span4-->
+        </div><!--/row-fluid-->
+    </div><!--container-fluid-->
+	
+</body>
+</html>
