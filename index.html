@@ -23,7 +23,7 @@
 
     <!--Top navigation bar
     ==========================================================================================-->
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-fixed-top">
          <div class="navbar-inner">
            <div class="container-fluid">
              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -35,8 +35,8 @@
              <div class="nav-collapse collapse">
                <ul class="nav pull-right">
                  <li class="active"><a href="index.html">Home</a></li>
-                 <li><a href="about.html">About</a></li>
-                 <li><a href="resources.html">Resources</a></li>
+                 <li><a href="pi.html">People</a></li>
+                 <li><a href="contact.html">Contact Us</a></li>
                </ul>
              </div><!--/.nav-collapse -->
            </div>
@@ -54,12 +54,12 @@
                <div class="span3 my-side-bar">
                    <ul class="nav nav-pills nav-stacked">
                        <li class="active">
-                           <a href="index.html"><h5>Home</h5></a>
+                           <a href="index.html"><strong>Home</strong></a>
                        </li>
                        
                        <li>
                            <a href="#" data-toggle="collapse" data-target="#people">
-                               <h5>People</h5>
+                               <strong>People</strong>
                            </a>
                        </li>
                        <div id="people" class="collapse">
@@ -72,28 +72,51 @@
                        
                        <li>
                            <a href="#" data-toggle="collapse" data-target="#resources">
-                                  <h5>Resources</h5>
+                                  <strong>Resources</strong>
                            </a>
                        </li>
                        <div id="resources" class="collapse">
                               <ul class="nav nav-pills nav-stacked">
-                                  <li><a href="paper.html">&nbsp;&nbsp;&nbsp;<em>Papers</em></a></li>
-                                  <li><a href="link.html">&nbsp;&nbsp;&nbsp;<em>Links</em></a></li>
-                                  <li><a href="conference.html">&nbsp;&nbsp;&nbsp;<em>Conferences</em></a></li>    
+                                  <li><a href="#">&nbsp;&nbsp;&nbsp;<em >Papers</em></a></li>
+                                  <li><a href="#">&nbsp;&nbsp;&nbsp;<em >Links</em></a></li>
+                                  <li><a href="#">&nbsp;&nbsp;&nbsp;<em >Conferences</em></a></li>    
                               </ul>
                           </div>
                        <li>
-                           <a href="#"><h5>Contact</h5></a>
+                           <a href="contact.html"><strong>Contact</strong></a>
                        </li>
                        
                    </ul>
                </div><!---/side navigation bar-->
             
                <div class="span6">
-                   <h3 class="text-info">Welcome</h3>
-                   <p class="text-info">
-                    &nbsp;&nbsp;Here goes some texts, photos or even slides, may be one or two paragraphs which I have no idea what should I put here.
-                   </p>
+                   <div id="myCarousel" class="carousel slide">
+                   <!-- Carousel items -->
+                    <div class="carousel-inner">
+                       <div class="active item">
+                           <img src="img/SocialMedia1.jpg" class="img-rounded" alt="">
+                       </div>
+                       <div class="item">
+                           <img src="img/SocialMedia2.jpg" class="img-rounded" alt="">
+                       </div>
+                       <div class="item">
+                              <img src="img/SocialMedia3.png" class="img-rounded" alt="">
+                          </div>
+                    </div>
+                     <!-- Carousel nav -->
+                     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                     <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                   <br>
+                   <br>
+                   <h5>
+                    &nbsp;&nbsp;This is just an initial version of the website. For this home page, maybe some different graphs for the upper carousel section and a few other paragraphs here. As far as we're concerned, we need to have a home section, a people section, a resource section and a contact us section.
+                   </h5>
+                   <h5>
+                       &nbsp;&nbsp;We still need every team member's profile including, photo, bio, email or personal website.
+                   </h5>
+                   <h5>
+                        &nbsp;&nbsp;Any comments are welcome!
+                   </h5>
                </div><!--span7-->
         
         </div><!--/row-fluid-->
