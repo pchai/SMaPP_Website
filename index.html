@@ -4,8 +4,7 @@
 	<meta charset="UTF-8">
 	<title>SMapp</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap.css" rel="stylesheet">
 	<style type="text/css">
           body {
             padding-top: 100px;
@@ -17,6 +16,7 @@
                   padding-top:9px;
           }
     </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 <body>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -26,12 +26,12 @@
     ==========================================================================================-->
 	<div class="navbar navbar-fixed-top">
          <div class="navbar-inner">
-           <div class="container-fluid">
-             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+           <div class="container">
+             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
-             </a>
+             </button>
              <a class="brand" href="index.html">SMaPP</a>
              <div class="nav-collapse collapse">
                <ul class="nav pull-right">
@@ -57,7 +57,7 @@
                        </li>
                        
                        <li>
-                           <a href="#" data-toggle="collapse" data-target="#people">
+                           <a data-toggle="collapse" href="#people">
                                <strong>People</strong>
                            </a>
                        </li>
@@ -70,7 +70,7 @@
                        </div>
                        
                        <li>
-                           <a href="#" data-toggle="collapse" data-target="#resources">
+                           <a data-toggle="collapse" href="#resources">
                                   <strong>Resources</strong>
                            </a>
                        </li>

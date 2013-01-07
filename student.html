@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>SMaPP - Student</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<style type="text/css">
           body {
@@ -17,6 +16,8 @@
                 padding-top:9px;
         }
     </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	
 </head>
 <body>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
@@ -26,18 +27,18 @@
     ==========================================================================================-->
 	<div class="navbar navbar-fixed-top">
          <div class="navbar-inner">
-           <div class="container-fluid">
-             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+           <div class="container">
+             <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
                <span class="icon-bar"></span>
-             </a>
+             </button>
              <a class="brand" href="index.html">SMaPP</a>
              <div class="nav-collapse collapse">
                <ul class="nav pull-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><a href="pi.html">People</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                 <li><a href="index.html">Home</a></li>
+                 <li class="active"><a href="pi.html">People</a></li>
+                 <li><a href="contact.html">Contact Us</a></li>
                </ul>
              </div><!--/.nav-collapse -->
            </div>
@@ -58,7 +59,7 @@
                        </li>
                        
                        <li class="active">
-                           <a href="#" data-toggle="collapse" data-target="#people">
+                           <a data-toggle="collapse" href="#people">
                                <strong>People</strong>
                            </a>
                        </li>
@@ -71,7 +72,7 @@
                        </div>
                        
                        <li>
-                           <a href="#" data-toggle="collapse" data-target="#resources">
+                           <a data-toggle="collapse" href="#resources">
                                   <strong>Resources</strong>
                            </a>
                        </li>
@@ -94,127 +95,314 @@
                    <hr>
                    <ul class="nav nav-pills nav-stacked">
                    <!--A list of student's bio-->
-                          <!--Erin Paige Hennes-->
-                          <li>
-                              <a data-toggle="collapse"  data-target="#erin">
-                                  <strong>Erin Paige Hennes</strong>
-                                  &nbsp;&nbsp;&nbsp;
-                                  <small>Bio</small>
-                                  <i class="icon-chevron-down"></i>
-                              </a>
-                          </li>
-                          <!--Person Information starts-->
-                          <div id="erin" class="collapse row-fluid">
-                              <!--thumbnail image-->
-                              <div class="span3">
-                                  <ul class="thumbnails">
-                                      <li>
-                                          <div class="thumbnail">
-                                              <img src="img/Erin_Hennes.jpg">
-                                          </div>
-                                      </li>
-                                  </ul>
-                                  <a href="mailto:#" class="muted inline">eph231@nyu.edu</a><br>
-                                  <a href="http://www.psych.nyu.edu/jostlab/Erin_Hennes.html" class="muted">Personal Site</a>
-                               </div>
-                               <div class="span1">
-                               </div>
-                               <!--Bio-->
-                               <div class="span7">
-                                   <p>
-                                       <small>
-                                       Erin is a 6th-year Ph.D. student studying social psychology, with a minor
-                                       in quantitative methods, under the primary guidance of Prof. John Jost.
-                                       Her research focuses on the influence of cognitive and motivated biases on
-                                       processing of sociopolitical information.  Her dissertation, which is
-                                       funded by a grant from the National Science Foundation, addresses the
-                                       impact of system justification motivation (i.e., the desire to defend and
-                                       perpetuate the social, political, and economic status quo) on perceptual
-                                       and cognitive processing of evidence of anthropogenic climate change.
-                                       Erin is also interested in the causes and consequences of the transmission
-                                       of political misinformation via social media. Prior to moving to New York,
-                                       Erin received a bachelor's degree in music, psychology, and liberal arts &
-                                       management from Indiana University.</small>
-                                   </p>
-                               </div><!--end Bio text-->
-                          </div><!--end erin information-->
-                          
-                          <!--Katie Jagel-->
+                           
+                           <!--Pablo-->
                             <li>
-                                  <a data-toggle="collapse"  data-target="#Katie">
-                                      <strong>Katie Jagel</strong>
+                                  <a data-toggle="collapse"  href="#Pablo">
+                                      <strong>Pablo Barberá</strong>
                                       &nbsp;&nbsp;&nbsp;
                                       <small>Bio</small>
                                       <i class="icon-chevron-down"></i>
                                   </a>
                               </li>
                               <!--Person Information starts-->
-                              <div id="Katie" class="collapse row-fluid">
-                                  <!--thumbnail image-->
-                                  <div class="span3">
-                                      <ul class="thumbnails">
-                                          <li>
-                                              <div class="thumbnail">
-                                                  <img src="img/katie.jpg">
-                                              </div>
-                                          </li>
-                                      </ul>
-                                      <a href="mailto:#" class="muted inline">kjagel@gmail.com</a>
-                                      <a href="http://www.psych.nyu.edu/jostlab/Katie_Jagel.html" class="muted">Personal Site</a>  
-                                   </div>
-                                   <div class="span1">
-                                   </div>
-                                   <!--Bio-->
-                                   <div class="span7">
-                                       <p>
-                                           <small>
-                                           Katie is interested in the effects of interpersonal relationships on policy decisions and structures.  After graduation, she plans to research how changes in domestic attitudes affect international companies looking to invest or collaborate in economic, social and political ventures. She has background in Middle-Eastern and North African studies. This semester she is pursuing a project which will measure the change in influence of social media actors on domestic leaders within, and outside of, election times.</small>
-                                       </p>
-                                   </div><!--end Bio text-->
-                              </div><!--end Katie information-->
+                              <div id="Pablo" class="collapse row-fluid">
+                                <!--thumbnail image-->
+                                <ul class="thumbnails">
+                                    <li class="span3">
+                                        <div class="thumbnail">
+                                            <img src="img/barbera.jpg">
+                                        </div>
+                                        <a href="mailto:#" class="muted inline">pablo.barbera@nyu.edu</a><br>
+                                        <a href="http://www.pablobarbera.com" class="muted">Personal Site</a>
+                                    </li>
+                                    <li class="span1">
+                                    </li>
+                                    <li class="span7">
+                                        <p>
+                                        <small>
+                                        Pablo Barberá is a PhD student in the Department of Politics at New York University. His
+                                        research interests encompass the areas of political behavior and electoral institutions, 
+                                        the use of new information and communication technologies in politics, and the electoral 
+                                        consequences of corruption scandals.<br>
+                                        Work In Progress: <br>
+                                        "Birds of the Same Feather Tweet Together. Bayesian Ideal Point Estimation Using Twitter 
+                                        Data." This article introduces a new method that scales Twitter users along a common 
+                                        ideological dimension based on who they follow.<br>
+                                        "One tweet, One Vote? Inequality in the Political Debate on Twitter." (with Gonzalo 
+                                        Rivero, NYU). This working paper analyzes the structure and content of political 
+                                        conversations that take place on Twitter. We find that most of the existing inequalities 
+                                        in public political exchanges are replicated on this micro-blogging platform.
+                                        </small>
+                                        </p>
+                                    </li>
+                            </ul>
+                            </div><!--end Pablo information-->
+                            
+                            <!--Zephyr Guan-->
+                            <li>
+                                <a data-toggle="collapse"  href="#Zephyr">
+                                    <strong>Zephyr Guan</strong>
+                                    &nbsp;&nbsp;&nbsp;
+                                    <small>Bio</small>
+                                    <i class="icon-chevron-down"></i>
+                                </a>
+                            </li>
+                            <!--Person Information starts-->
+                            <div id="Zephyr" class="collapse row-fluid">
+                                <!--thumbnail image-->
+                                <ul class="thumbnails">
+                                    <li class="span3">
+                                        <div class="thumbnail">
+                                            <img src="img/Zephyr.jpg">
+                                        </div>
+                                        <a href="mailto:#" class="muted inline">guanzf@gmail.com</a><br>
+                                    </li>
+                                    <li class="span1">
+                                    </li>
+                                    <li class="span7">
+                                    <p>
+                                        <small>
+                                        Zephyr is a 2nd year master student in General Psychology. She is interested in political
+                                        psychology and social mobility studies.
+                                        </small>
+                                                   </p>
+                                            </li>
+                                        </ul>
+                                </div><!--end Guan information-->
                           
-                          <!--Thomas C. Zeitzoff-->
+                          <!--Saad Ahmad Gulzar-->
                           <li>
-                              <a data-toggle="collapse"  data-target="#Thomas">
-                                  <strong>Thomas C. Zeitzoff</strong>
+                              <a data-toggle="collapse"  href="#Saad">
+                                  <strong>Saad Ahmad Gulzar</strong>
                                   &nbsp;&nbsp;&nbsp;
                                   <small>Bio</small>
                                   <i class="icon-chevron-down"></i>
                               </a>
                           </li>
                           <!--Person Information starts-->
-                          <div id="Thomas" class="collapse row-fluid">
-                              <!--thumbnail image-->
-                              <div class="span3">
-                                  <ul class="thumbnails">
-                                      <li>
-                                          <div class="thumbnail">
-                                              <img src="img/zeitzoff.jpg">
-                                          </div>
-                                      </li>
-                                  </ul>
-                                  <a href="mailto:#" class="muted inline">tcz206@nyu.edu</a><br>
-                                  <a href="https://sites.google.com/site/zeitzoff/" class="muted">Personal Site</a>
-                               </div>
-                               <div class="span1">
-                               </div>
-                               <!--Bio-->
-                               <div class="span7">
-                                   <p>
-                                       <small>
-                                           I am a PhD student in the Politics Department at New York University.  I am interested in the political and psychological factors that drive cycles of violence, with a particular focus on the Israeli-Palestinian conflict.  Drawing on theories from international relations, comparative politics, and political psychology, I use social media, surveys, and field experiments to test extant theories of conflict and develop new ones.
-<br>
-Relevant Paper
-<br>
-Zeitzoff, Thomas. 2011. “Using Social Media to Measure Conflict Dynamics: An Application to the 2008- 2009 Gaza Conflict” Journal of Conflict Resolution. 55(6): 938-969.
-URL: <a href=http://jcr.sagepub.com/content/55/6/938>http://jcr.sagepub.com/content/55/6/938</a></small>
-                                   </p>
-                               </div><!--end Bio text-->
-                          </div><!--end Thomas information-->
+                          <div id="Saad" class="collapse row-fluid">
+                            <!--thumbnail image-->
+                            <ul class="thumbnails">
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <img src="img/Saad Gulzar.jpg">
+                                    </div>
+                                    <a href="mailto:#" class="muted inline">saad.gulzar@nyu.edu</a><br>
+                                    <a href="http://saadgulzar.wordpress.com/" class="muted">
+                                        Personal Site</a>
+                                </li>
+                                <li class="span1">
+                                </li>
+                                <li class="span7">
+                                <p>
+                                <small>
+                                Saad Gulzar is a Ph.D. student of Political Science at New York University. His current research focuses on the political 
+                                economy of service delivery in Pakistan. Before starting graduate school, 
+                                Saad was an economist at the International Growth Center - Pakistan of the London School 
+                                of Economics and University of Oxford. He holds a Masters in Public Administration from Columbia 
+                                University and a Masters in Public Policy from the National University of Singapore.<br> 
+                                A summary of one of my current projects is uploaded 
+                                <a href=
+                                "http://www.theigc.org/publications/igc-project/monitoring-monitors-using-ict-improve-government-process-evaluation-and">
+                                here</a>
+                                </small>
+                                </p>
+                                </li>
+                            </ul>
+                        </div><!--end Saad information-->
+                        
+                        <!--Erin Paige Hennes-->
+                        <li>
+                            <a data-toggle="collapse"  href="#erin">
+                                <strong>Erin Paige Hennes</strong>
+                                &nbsp;&nbsp;&nbsp;
+                                <small>Bio</small>
+                                  <i class="icon-chevron-down"></i>
+                            </a>
+                        </li>
+                        <!--Person Information starts-->
+                        <div id="erin" class="collapse row-fluid">
+                            <!--thumbnail image-->
+                                <ul class="thumbnails">
+                                    <li class="span3">
+                                        <div class="thumbnail">
+                                              <img src="img/Erin_Hennes.jpg">
+                                        </div>
+                                        <a href="mailto:#" class="muted inline">eph231@nyu.edu</a><br>
+                                        <a href="http://www.psych.nyu.edu/jostlab/Erin_Hennes.html" class="muted">
+                                            Personal Site</a>
+                                    </li>
+                                    <li class="span1">
+                                    </li>
+                                    <li class="span7">
+                                    <p>
+                                        <small>
+                                                 Erin is a 6th-year Ph.D. student studying social psychology, with a minor
+                                                 in quantitative methods, under the primary guidance of Prof. John Jost.
+                                                 Her research focuses on the influence of cognitive and motivated biases on
+                                                 processing of sociopolitical information.  Her dissertation, which is
+                                                 funded by a grant from the National Science Foundation, addresses the
+                                                 impact of system justification motivation (i.e., the desire to defend and
+                                                 perpetuate the social, political, and economic status quo) on perceptual
+                                                 and cognitive processing of evidence of anthropogenic climate change.
+                                                 Erin is also interested in the causes and consequences of the transmission
+                                                 of political misinformation via social media. Prior to moving to New York,
+                                                 Erin received a bachelor's degree in music, psychology, and liberal arts &
+                                                 management from Indiana University.</small>
+                                    </p>
+                                    </li>
+                                </ul>
+                        </div><!--end erin information-->
+                        <!--Katie Jagel-->
+                        <li>
+                            <a data-toggle="collapse"  href="#Katie">
+                                <strong>Katie Jagel</strong>
+                                &nbsp;&nbsp;&nbsp;
+                                <small>Bio</small>
+                                <i class="icon-chevron-down"></i>
+                            </a>
+                        </li>
+                        <!--Person Information starts-->
+                        <div id="Katie" class="collapse row-fluid">
+                            <!--thumbnail image-->
+                                <ul class="thumbnails">
+                                    <li class="span3">
+                                        <div class="thumbnail">
+                                            <img src="img/katie.jpg">
+                                        </div>
+                                        <a href="mailto:#" class="muted inline">kjagel@gmail.com</a>
+                                        <a href="http://www.psych.nyu.edu/jostlab/Katie_Jagel.html" class="muted">
+                                            Personal Site</a>
+                                    </li>
+                                    <li class="span1">
+                                    </li>
+                                    <li class="span7">
+                                        <p>
+                                        <small>Katie is interested in the effects of interpersonal relationships on policy decisions and structures. 
+                                            After graduation, she plans to research how changes in domestic attitudes affect international companies 
+                                            looking to invest or collaborate in economic, social and political ventures. She has background in 
+                                            Middle-Eastern and North African studies. This semester she is pursuing a project which will measure the 
+                                            change in influence of social media actors on domestic leaders within, and outside of, election times.
+                                            </small>
+                                        </p>
+                                    </li>
+                                </ul>
+                        </div><!--end Katie information-->
+                        
+                        <!--Franziska Barbara Keller-->
+                        <li>
+                            <a data-toggle="collapse"  href="#Franziska">
+                                <strong>Franziska Barbara Keller</strong>
+                                &nbsp;&nbsp;&nbsp;
+                                <small>Bio</small>
+                                <i class="icon-chevron-down"></i>
+                            </a>
+                        </li>
+                        <!--Person Information starts-->
+                        <div id="Franziska" class="collapse row-fluid">
+                            <!--thumbnail image-->
+                            <ul class="thumbnails">
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <img src="img/keller.jpg">
+                                    </div>
+                                    <a href="mailto:#" class="muted inline">fbkeller@nyu.edu</a><br>
+                                </li>
+                                <li class="span1">
+                                </li>
+                                <li class="span7">
+                                    <p>
+                                    <small>
+                                        Franziska Keller is a 3rd-year PhD student at NYU's Department of Politics. She is interested in explaining 
+                                        the stability of authoritarian regimes using network analysis, and has done research on how revolutions and 
+                                        protest movements spread between and within countries. She holds and MA in Political Science and Islamic 
+                                        Studies from the University of Bern, Switzerland, and has studied or worked in China, Kyrgyzstan, Syria and 
+                                        Dubai.
+                                    </small>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div><!--end Franziska-->
+                            
+                        <!--Joanna Sterling-->
+                        <li>
+                            <a data-toggle="collapse"  href="#Sterling">
+                                <strong>Joanna Sterling</strong>
+                                &nbsp;&nbsp;&nbsp;
+                                <small>Bio</small>
+                                <i class="icon-chevron-down"></i>
+                            </a>
+                        </li>
+                        <!--Person Information starts-->
+                        <div id="Sterling" class="collapse row-fluid">
+                            <!--thumbnail image-->                                    
+                                <ul class="thumbnails">
+                                    <li class="span3">
+                                        <div class="thumbnail">
+                                            <img src="img/sterling.jpg">
+                                        </div>
+                                        <a href="mailto:#" class="muted inline">joanna.sterling@nyu.edu</a><br>
+                                        <a href=" http://www.psych.nyu.edu/jostlab/Joanna_Sterling.html" class="muted">
+                                                      Personal Site</a>
+                                    </li>
+                                    <li class="span1">
+                                    </li>
+                                    <li class="span7">
+                                        <p>
+                                        <small>
+                                        Joanna received her BA at the University of Pittsburgh in both Psychology and International and Area Studies. 
+                                        She is currently pursuing a doctorate in Social Psychology at New York University. Joanna is interested in 
+                                        studying conceptions of ideology, ideological identification, and inter-party communication. Her other 
+                                        research interests include system justification theory, mass media communication, leader perception, and 
+                                        indirect means of communication.</small>
+                                        </p>
+                                    </li>
+                                </ul>
+                        </div><!--end Joanna-->
                           
-                      </ul>
-               </div><!--span8-->
-                
+
+                         
+                          
+                        <!--Thomas C. Zeitzoff-->
+                        <li>
+                            <a data-toggle="collapse"  href="#Thomas">
+                                <strong>Thomas C. Zeitzoff</strong>
+                                &nbsp;&nbsp;&nbsp;
+                                <small>Bio</small>
+                                <i class="icon-chevron-down"></i>
+                            </a>
+                        </li>
+                        <!--Person Information starts-->
+                        <div id="Thomas" class="collapse row-fluid">
+                            <!--thumbnail image-->
+                            <ul class="thumbnails">
+                                <li class="span3">
+                                    <div class="thumbnail">
+                                        <img src="img/zeitzoff.jpg">
+                                    </div>
+                                    <a href="mailto:#" class="muted inline">tcz206@nyu.edu</a><br>
+                                    <a href="https://sites.google.com/site/zeitzoff/" class="muted">Personal Site</a>
+                                </li>
+                                <li class="span1">
+                                </li>
+                                <li class="span7">
+                                    <p>
+                                    <small>
+                                        I am a PhD student in the Politics Department at New York University.  I am interested in the political and 
+                                        psychological factors that drive cycles of violence, with a particular focus on the Israeli-Palestinian conflict.  
+                                        Drawing on theories from international relations, comparative politics, and political psychology, I use social media, 
+                                        surveys, and field experiments to test extant theories of conflict and develop new ones.<br>
+                                        Relevant Paper<br>
+                                        Zeitzoff, Thomas. 2011. “Using Social Media to Measure Conflict Dynamics: An Application to the 2008- 2009 Gaza         
+                                        Conflict” Journal of Conflict Resolution. 55(6): 938-969.
+                                        URL: <a href=http://jcr.sagepub.com/content/55/6/938>http://jcr.sagepub.com/content/55/6/938</a></small>
+                                    </p>
+                                </li> 
+                            </ul>
+                        </div><!--end Thomas information-->
+                    </ul><!--end students list-->
+               </div><!--span7-->
         </div><!--/row-fluid-->
     </div><!--container-fluid-->
 	
