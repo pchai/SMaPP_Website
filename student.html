@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>SMaPP - Student</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
 	<style type="text/css">
           body {
-            padding-top: 100px;
+            padding-top: 80px;
             padding-bottom: 40px;
           }
           .my-side-bar {
@@ -22,7 +22,7 @@
 <body>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-
+  <div id="wrap">
     <!--Top navigation bar
     ==========================================================================================-->
 	<div class="navbar navbar-fixed-top">
@@ -49,7 +49,7 @@
     
     <!-- Body Content
     ==========================================================================================-->   
-	<div class="container">
+	<div id="body" class="container">
            <div class="row">
                
                <!--Side navigation bar
@@ -57,13 +57,13 @@
                <div class="span3 my-side-bar">
                    <ul class="nav nav-pills nav-stacked">
                        <li>
-                           <a href="index.html"><strong>Home</strong></a>
+                           <a href="index.html" class="lead"><strong>Home</strong></a>
                        </li>
                        <li>
-                           <a href="about.html"><strong>About</strong></a>
+                           <a href="about.html" class="lead"><strong>About</strong></a>
                        </li>
                        <li class="active">
-                           <a data-toggle="collapse" href="#people">
+                           <a data-toggle="collapse" href="#people" class="lead">
                                <strong>People</strong>
                            </a>
                        </li>
@@ -76,7 +76,7 @@
                        </div>
                        
                        <li>
-                           <a data-toggle="collapse" href="#resources">
+                           <a data-toggle="collapse" href="#resources" class="lead">
                                   <strong>Resources</strong>
                            </a>
                        </li>
@@ -88,10 +88,10 @@
                                 </ul>
                           </div>
                        <li>
-                           <a href="calendar.html"><strong>Calendar</strong></a>
+                           <a href="calendar.html" class="lead"><strong>Calendar</strong></a>
                        </li>
                        <li>
-                           <a href="contact.html"><strong>Contact</strong></a>
+                           <a href="contact.html" class="lead"><strong>Contact</strong></a>
                        </li>
                        
                    </ul>
@@ -451,8 +451,42 @@
                       </div><!--end Duncan information--> 
                 </ul><!--end staff list-->
                </div><!--span7-->
-        </div><!--/row-fluid-->
-    </div><!--container-fluid-->
+        </div><!--/row-->
+    </div><!--container-->
+    <div id="footer" class="container" >
+            <div class="row">
+                <div class="span3 my-side-bar">
+                </div>
+                <div class="span7 ">
+                  <ul class="nav nav-pills">
+                    <li>
+                        <a href="index.html" class="text-error">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><p class="text-error">About</p></a>
+                    </li>
+                    <li>
+                        <a href="pi.html"><p class="text-error">People</p></a>
+                    </li>
+                    <li>
+                        <a href="papers.html"><p class="text-error">Resources</p></a>
+                    </li>
+                    <li>
+                        <a href="calendar.html"><p class="text-error">Calendar</p></a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><p class="text-error">Contact</p></a>
+                    </li> 
+                  </ul>                         
+                  <P>Copyright &copy; Social Media and Political Participation at New York University
+                    <br/>
+                    Site designed by <a href="student.html" class="muted">Peihong Chai </a> and 
+                    <a href="student.html" class="muted">Duncan Penfold-Brown</a>
+                  </P>
+                </div><!--span7-->
+           </div><!--row-->
+        </div><!--footer-->
+  </div><!--wrap-->
 	
 </body>
 </html>

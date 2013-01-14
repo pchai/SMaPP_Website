@@ -34,6 +34,23 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  height: 100%;
+
+}
+#body {
+    padding-bottom: 100px;
+}
+#wrap {
+    min-height: 100%;
+    position:relative;
+}
+#push,
+#footer{
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
 a:focus {
   outline: thin dotted #333;
@@ -206,11 +223,13 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: 'Ubuntu', Tahoma, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
+  font-family: "Lora", Georgia, "Times New Roman", Times, serif;
+  font-size: 17px;
+  line-height: 26px;
   color: #333333;
   background-color: #ffffff;
+  height: 100%;
+
 }
 a {
   color: #dd4814;
@@ -549,10 +568,10 @@ p {
   margin: 0 0 10px;
 }
 .lead {
-  margin-bottom: 20px;
-  font-size: 21px;
+  margin-bottom: 26px;
+  font-size: 25.5px;
   font-weight: 200;
-  line-height: 30px;
+  line-height: 39px;
 }
 small {
   font-size: 85%;
@@ -602,10 +621,10 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 10px 0;
+  margin: 13px 0;
   font-family: inherit;
   font-weight: bold;
-  line-height: 20px;
+  line-height: 26px;
   color: inherit;
   text-rendering: optimizelegibility;
 }
@@ -622,47 +641,47 @@ h6 small {
 h1,
 h2,
 h3 {
-  line-height: 40px;
+  line-height: 52px;
 }
 h1 {
-  font-size: 38.5px;
+  font-size: 46.75px;
 }
 h2 {
-  font-size: 31.5px;
+  font-size: 38.25px;
 }
 h3 {
-  font-size: 24.5px;
+  font-size: 29.75px;
 }
 h4 {
-  font-size: 17.5px;
+  font-size: 21.25px;
 }
 h5 {
-  font-size: 14px;
+  font-size: 17px;
 }
 h6 {
-  font-size: 11.9px;
+  font-size: 14.45px;
 }
 h1 small {
-  font-size: 24.5px;
+  font-size: 29.75px;
 }
 h2 small {
-  font-size: 17.5px;
+  font-size: 21.25px;
 }
 h3 small {
-  font-size: 14px;
+  font-size: 17px;
 }
 h4 small {
-  font-size: 14px;
+  font-size: 17px;
 }
 .page-header {
-  padding-bottom: 9px;
-  margin: 20px 0 30px;
-  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 12px;
+  margin: 26px 0 39px;
+  border-bottom: 1px solid #eeeeee;
 }
 ul,
 ol {
   padding: 0;
-  margin: 0 0 10px 25px;
+  margin: 0 0 13px 25px;
 }
 ul ul,
 ul ol,
@@ -671,7 +690,7 @@ ol ul {
   margin-bottom: 0;
 }
 li {
-  line-height: 20px;
+  line-height: 26px;
 }
 ul.unstyled,
 ol.unstyled {
@@ -690,17 +709,17 @@ ol.inline  > li {
   padding-right: 5px;
 }
 dl {
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 dt,
 dd {
-  line-height: 20px;
+  line-height: 26px;
 }
 dt {
   font-weight: bold;
 }
 dd {
-  margin-left: 10px;
+  margin-left: 13px;
 }
 .dl-horizontal {
   *zoom: 1;
@@ -727,9 +746,9 @@ dd {
   margin-left: 180px;
 }
 hr {
-  margin: 20px 0;
+  margin: 26px 0;
   border: 0;
-  border-top: 1px solid #f5f5f5;
+  border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #ffffff;
 }
 abbr[title],

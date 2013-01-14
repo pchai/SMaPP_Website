@@ -7,7 +7,7 @@
 	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
 	<style type="text/css">
           body {
-            padding-top: 100px;
+            padding-top: 80px;
             padding-bottom: 40px;
           }
           .my-side-bar {
@@ -22,7 +22,7 @@
 <body>
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-
+  <div id="wrap">
     <!--Top navigation bar
     ==========================================================================================-->
 	<div class="navbar navbar-fixed-top">
@@ -49,20 +49,20 @@
     
     <!-- Body Content
     ==========================================================================================-->   
-	<div class="container">
+	<div id="body" class="container">
            <div class="row">
                <!--Side navigation bar
                ==========================================================================================-->
                <div class="span3 my-side-bar">
                    <ul class="nav nav-pills nav-stacked">
                        <li>
-                           <a href="index.html"><strong>Home</strong></a>
+                           <a href="index.html" class="lead"><strong>Home</strong></a>
                        </li>
                        <li>
-                           <a href="about.html"><strong>About</strong></a>
+                           <a href="about.html" class="lead"><strong>About</strong></a>
                        </li>
                        <li class="active">
-                           <a data-toggle="collapse" href="#people">
+                           <a data-toggle="collapse" href="#people" class="lead">
                                <strong>People</strong>
                            </a>
                        </li>
@@ -75,7 +75,7 @@
                        </div>
                        
                        <li>
-                           <a data-toggle="collapse" href="#resources">
+                           <a data-toggle="collapse" href="#resources" class="lead">
                                   <strong>Resources</strong>
                            </a>
                        </li>
@@ -87,10 +87,10 @@
                               </ul>
                           </div>
                        <li>
-                           <a href="calendar.html"><strong>Calendar</strong></a>
+                           <a href="calendar.html" class="lead"><strong>Calendar</strong></a>
                        </li>
                        <li>
-                           <a href="contact.html"><strong>Contact</strong></a>
+                           <a href="contact.html" class="lead"><strong>Contact</strong></a>
                        </li>
                        
                    </ul>
@@ -131,7 +131,7 @@
                                        <p>
                                            <small>My laboratory is focused on two areas in computational and systems biology: 1) Predicting and designing protein and peptidomimetic structure and 2) Learning dynamic network models automatically from functional genomics data using scalable methods.<br/><br/>
                                             In both research areas I have played key roles in achieving critical field-wide milestones. In the area of structure prediction I was one of the early authors on the Rosetta code, which was one of the first codes to demonstrate accurate and comprehensive ability to predict protein structure in the absence of detectable sequence homology to proteins with known structures. My lab continues to be a core contributor to the Rosetta research community, participating in the recent refactoring of the code and adding several new functionalities.<br/><br/>
-                                            My lab has also made key contributions to the area of genomics data analysis in a systems-biology context. We focus on developing new methods for network inference that simultaneously learn dynamics and topology from data (the Inferelator), and methods that learn condition-dependent co-regulated gene groups from integrations of different genomics data- types (e.g. transcriptomic, proteomic, etc.) using approaches we have developed (cMonkey and multi-species-cMonkey integrative biclustering). In the DREAM3 and DREAM4 blind assessment of network inference methods we were top performers in the network inference category, and are currently contributing to a joint paper resulting from DREAM5 (the most current assessment of network inference methods).</br><br/>
+                                            My lab has also made key contributions to the area of genomics data analysis in a systems-biology context. We focus on developing new methods for network inference that simultaneously learn dynamics and topology from data (the Inferelator), and methods that learn condition-dependent co-regulated gene groups from integrations of different genomics data- types (e.g. transcriptomic, proteomic, etc.) using approaches we have developed (cMonkey and multi-species-cMonkey integrative biclustering). In the DREAM3 and DREAM4 blind assessment of network inference methods we were top performers in the network inference category, and are currently contributing to a joint paper resulting from DREAM5 (the most current assessment of network inference methods).<br/><br/>
                                            </small>
                                        </p>
                                    </li>
@@ -230,10 +230,10 @@
                                           <div class="thumbnail">
                                               <img src="img/joshuat.jpg">
                                           </div>
-                                        </br>
+                                        <br/>
                                           <a href="mailto:#" class="muted inline">joshua.tucker@nyu.edu</a><br/>
                                           <a href="https://files.nyu.edu/jat7/public/" class="muted">
-                                              Personal Site</a></br>
+                                              Personal Site</a><br/>
                                           <a href="http://scholar.google.com/citations?user=fc0VgPAAAAAJ&hl=en" class="muted">Google Scholar</a>
 
                                       </li>
@@ -264,6 +264,41 @@ In 2009, I was added as a co-author of The Monkey Cage, a politics and policy bl
                </div><!--span4-->
         </div><!--/row-fluid-->
     </div><!--container-fluid-->
+    <div id="footer" class="container" >
+            <div class="row">
+                <div class="span3 my-side-bar">
+                </div>
+                <div class="span7 ">
+                  <ul class="nav nav-pills">
+                    <li>
+                        <a href="index.html" class="text-error">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html"><p class="text-error">About</p></a>
+                    </li>
+                    <li>
+                        <a href="pi.html"><p class="text-error">People</p></a>
+                    </li>
+                    <li>
+                        <a href="papers.html"><p class="text-error">Resources</p></a>
+                    </li>
+                    <li>
+                        <a href="calendar.html"><p class="text-error">Calendar</p></a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><p class="text-error">Contact</p></a>
+                    </li> 
+                  </ul>                         
+                  <P>Copyright &copy; Social Media and Political Participation at New York University
+                    <br/>
+                    Site designed by <a href="student.html" class="muted">Peihong Chai </a> and 
+                    <a href="student.html" class="muted">Duncan Penfold-Brown</a>
+                  </P>
+                </div><!--span7-->
+           </div><!--row-->
+        </div><!--footer-->
+    </div><!--wrap-->
+
 	
 </body>
 </html>
