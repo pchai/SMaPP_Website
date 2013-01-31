@@ -5076,7 +5076,6 @@ a.badge:hover {
   filter: alpha(opacity=90);
 }
 .carousel-caption {
-  position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
