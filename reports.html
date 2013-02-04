@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>SMaPP - Calendar</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap.css" rel="stylesheet" media="screen">
-	<style type="text/css">
+    <meta charset="UTF-8">
+    <title>SMaPP - Papers</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <style type="text/css">
           body {
             padding-top: 80px;
             padding-bottom: 40px;
@@ -19,13 +19,12 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
 </head>
 <body>
-	<script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   <div id="wrap">
-
     <!--Top navigation bar
     ==========================================================================================-->
-	<div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
          <div class="navbar-inner">
            <div class="container">
              <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -38,8 +37,8 @@
                <ul class="nav pull-right">
                  <li><a href="about.html">About</a></li>
                  <li><a href="pi.html">People</a></li>
-                 <li><a href="papers.html">Resources</a></li>
-                 <li class="active"><a href="calendar.html">Calendar</a></li>
+                 <li class="active"><a href="papers.html">Resources</a></li>
+                 <li><a href="calendar.html">Calendar</a></li>
                  <li><a href="news.html">News</a></li>
                  <li><a href="contact.html">Contact</a></li>
                </ul>
@@ -50,7 +49,7 @@
 
     <!-- Body Content
     ==========================================================================================-->
-      <div id="body" class="container">
+    <div id="body" class="container">
            <div class="row">
                <!--Side navigation bar
                ==========================================================================================-->
@@ -75,20 +74,20 @@
                                  </ul>
                        </div>
 
-                       <li>
+                       <li class="active" >
                            <a data-toggle="collapse" href="#resources" class="lead">
                                   <strong>Resources</strong>
                            </a>
                        </li>
-                       <div id="resources" class="collapse">
-                              <ul class="nav nav-pills nav-stacked">
-                                  <li><a href="papers.html">&nbsp;&nbsp;&nbsp;<em >Papers</em></a></li>
-                                    <li><a href="reports.html">&nbsp;&nbsp;&nbsp;<em >SMaPP Data Reports</em></a></li>
-                                    <li><a href="links.html">&nbsp;&nbsp;&nbsp;<em >Links</em></a></li>
-                                    <li><a href="softwares.html">&nbsp;&nbsp;&nbsp;<em >Softwares</em></a></li>
-                              </ul>
-                          </div>
-                       <li class="active">
+                       <div id="resources" class="collapse in">
+                                    <ul class="nav nav-pills nav-stacked">
+                                        <li><a href="papers.html">&nbsp;&nbsp;&nbsp;<em >Papers</em></a></li>
+                                        <li class="active"><a href="reports.html">&nbsp;&nbsp;&nbsp;<em >SMaPP Data Reports</em></a></li>
+                                          <li><a href="links.html">&nbsp;&nbsp;&nbsp;<em >Links</em></a></li>
+                                          <li ><a href="softwares.html">&nbsp;&nbsp;&nbsp;<em >Softwares</em></a></li>
+                                    </ul>
+                                </div>
+                       <li>
                            <a href="calendar.html" class="lead"><strong>Calendar</strong></a>
                        </li>
                        <li>
@@ -102,32 +101,24 @@
                </div><!---/side navigation bar-->
 
                <div class="span7">
-                   <h3 >Calendar</h3>
+                   <h3 >SMaPP Data Reports</h3>
                    <hr>
-                   <p>
-                      <strong>Wednesday, February 6, 9 a.m. to 1 p.m.</strong><br>
-                      <a href="http://www.law.harvard.edu/news/2013/02/social-media-and-behavioral-economics-conference.html" target="_blank" style="color:black">
-                      Social Media and Behavioral Economics Conference</a><br>
-                      Wasserstein Hall 2019 (Milstein West AB)<br>
-                      Harvard Law School, 1585 Massachusetts Avenue<br>
-                   </p>
-                   <hr>
-                   <p>
-                      <strong>Monday, January 28, 2013, 3:00pm</strong><br>
-                      SMaPP first meeting of 2013<br>
-                      John Jost's Lab, 5th floor<br>
-                      Department of Psychology, 6 Washington Place<br>
-                   </p>
-                   <hr>
+                   <p >
+                      <a href="reports/Italian_Elections_2013_02_04_Twitter.pdf" style="color:black" target="_blank">
+                      Twitter and 2013 Italian Parliamentary Elections: Preliminary Report, February 5, 2013</a>
+                      <br/>
+                      <br/>
 
+                   </p>
                </div><!--span7-->
-        </div><!--/row-->
-    </div><!--container-->
-    <div id="footer" class="container">
+
+        </div><!--/row-fluid-->
+    </div><!--container-fluid-->
+    <div id="footer" class="container" >
             <div class="row">
                 <div class="span3 my-side-bar">
                 </div>
-                <div class="span7">
+                <div class="span7 ">
                   <ul class="nav nav-pills">
                     <li>
                         <a href="index.html" class="text-error">Home</a>
@@ -159,9 +150,5 @@
            </div><!--row-->
         </div><!--footer-->
     </div><!--wrap-->
-
-
-
-
 </body>
 </html>
