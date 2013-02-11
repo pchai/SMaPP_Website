@@ -224,8 +224,8 @@ textarea {
 body {
   margin: 0;
   font-family: "Lora", Georgia, "Times New Roman", Times, serif;
-  font-size: 17px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   color: #333333;
   background-color: #ffffff;
   height: 100%;
@@ -568,10 +568,10 @@ p {
   margin: 0 0 10px;
 }
 .lead {
-  margin-bottom: 26px;
-  font-size: 25.5px;
+  margin-bottom: 20px;
+  font-size: 24px;
   font-weight: 200;
-  line-height: 39px;
+  line-height: 33px;
 }
 small {
   font-size: 85%;
