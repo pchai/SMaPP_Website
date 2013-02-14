@@ -5179,6 +5179,9 @@ a.badge:hover {
   .navbar .nav-collapse .nav-header {
     color: #f5f5f5;
   }
+  div.my-side-bar{
+    display: none;
+  }
 }
 .nav-tabs .open .dropdown-toggle,
 .nav-pills .open .dropdown-toggle,
